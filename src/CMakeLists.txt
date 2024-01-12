@@ -570,9 +570,9 @@ if(ANDROID)
     find_library(ANDROID_LOG_LIBRARY NAMES log)
 endif()
 
-if(BUILD_LOADER)
-    add_subdirectory(loader)
-endif()
+# if(BUILD_LOADER)
+#     add_subdirectory(loader)
+# endif()
 
 if(BUILD_API_LAYERS)
     add_subdirectory(api_layers)
